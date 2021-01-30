@@ -52,25 +52,25 @@ function draw() {
     box.shapeColor = "blue";
     box.velocityX = 0;
     box.velocityY = 0;
-    music.play(0);
+    music.play();
   }
   if(box.isTouching(redSurface)){
     box.shapeColor = "red";
     box.velocityX = 0;
     box.velocityY = 0;
-    music.play(0);
+    music.play();
   }
   if(box.isTouching(greenSurface)){
     box.shapeColor = "green";
     box.velocityX = 0;
     box.velocityY = 0;
-    music.play(0);
+    music.play();
   }
   if(box.isTouching(orangeSurface)){
     box.shapeColor = "orange";
     box.velocityX = 0;
     box.velocityY = 0;
-    music.play(0);
+    music.play();
   }
 
   drawSprites();
